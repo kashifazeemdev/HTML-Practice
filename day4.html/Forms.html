@@ -6,14 +6,15 @@
     <title>Forms in HTML</title>
 </head>
 <body>
-    <form action="">
+    <button>Hey</button> <!--This is out form action-->
+    <form action="server">
         <div>
             <label for="Username"> Username :  </label>
-            <input type="text"  placeholder="Enter Name" id="Username"> <!--I am for Username-->
+            <input type="text"  placeholder="Enter Name" id="Username" name="Username"> <!--I am for Username-->
         </div>
        <div>
           <label for="Password" >  Password : </label>
-           <input type="password"  placeholder="Enter strong password" id="Password" >   <!--I am for Password-->
+           <input type="password" placeholder="Enter strong password" id="Password"  name="Password">   <!--I am for Password-->
        </div>
       <div>
           <label for="Age"> Enter age :</label>
@@ -24,6 +25,25 @@
         <br>
         Color
         <input type="color" > <!--I am for Color-->
+        <br>
+            <button>Submit</button> <!--This is inside the action-->
+            <br>
+            <button type="reset"> Rset</button> <!--I am for Reset-->
+            <br>
+            <button type="button"> Greetings</button> <!--I am a specific button-->
+            <br>
+            <input type="button" value="Click">
+            <br> 
+            <input type="submit"> <!--I am a input created button-->
     </form> 
+    <hr>
+    <form action="https://www.youtube.com/results"> <!--I am online link-->
+         <input type="text" placeholder="Search in youtube" name="search_query" /> <!--I am for online searching-->
+    <button>Search</button>
+    <hr>
+          <input type="checkbox" id="age" name="age" >
+    <label for="age">I am 20+</label>
+    <button>submit</button>
+    </form>   
 </body>
 </html>
