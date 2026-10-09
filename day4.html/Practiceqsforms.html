@@ -4,10 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Qs Forms</title>
-    <form action="https://www.google.com/search">
+     <!--This is for Practice Qs how to set URL for data-->
+    <form action="https://www.google.com/search"> 
         <input type="text" name="q" placeholder="Search in google">
         <button>Search</button>
-        <!--This is for Practice Qs how to set URL for data-->
+        <hr>
+       <!--This practice for checkbox-->
+        <label for="age">I am 18+</label>
+        <input type="checkbox" id="age" name="age">
+        <button>click me</button>
+        <hr> 
+        <!--Practice for Radio Element-->
+        <div>
+            <b>Choose fruit :</b>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango </label>
+            <input type="radio" name="fruit" id="gavava" value="gavava">
+            <label for="gavava"> gavava </label>
+        </div>
+        <hr>
+        <!--Many checkbox usese-->
+        <div>
+            <b>Choose your subjects :</b>
+         <label for="Bio">Bio</label>
+        <input type="checkbox" id="Bio" name="subject" value="Bio">
+         <label for="Phy">Phy</label>
+        <input type="checkbox" id="Phy" name="subject" value="Phy">
+         <label for="Islamiat">Islamiat</label>
+        <input type="checkbox" id="Islamiat" name="subject" value="Islamiat">
+        </div>
+        <hr>
+        <!--Dropdown element practice-->
+        <div>
+            <b>Choose your profession :</b>
+            <select name="profession" id="profession">
+                <option value="">Select Your Option</option>
+                <option value="stu">Student</option> <!--This is dropdown element-->
+                <option value="dev" >Developer</option>
+                <!--For already selection we use selected-->
+            </select>
+        </div>
+        <hr>
+        <div>
+            <!--This is for Range element-->
+            <label for="volume">Select your volume level </label>
+            <input type="range" min="0" max="100" name="vol" step="5" value="50">
+        </div>
+        <hr>
+         <div>
+            <label for="feedback">Write your feedback :</label>
+            <textarea name="feedback" id="feedback" rows="5" cols="50" placeholder="feedback"></textarea>
+         </div>
     </form>
 </head>
 <body>
