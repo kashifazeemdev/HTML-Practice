@@ -1,0 +1,16 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h1, h3{
+     color: #b92b27;
+}
+#login
+{
+    color:  #b92b27;
+    background-color:gray;
+}
+#signup {
+    color: #b92b27;
+    background-color: wheat;
+
+}
