@@ -11,6 +11,39 @@ h1, h3{
 }
 #signup {
     color: #b92b27;
-    background-color: wheat;
+}
+.upvote {
+     color: black;
+     background-color: green;
 
 }
+#myid { /*This is Practice Qs*/
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+/*using Desendent selestor*/
+p a {
+    color: goldenrod ;
+    background-color: rgb(9, 135, 245);
+}
+nav ul li a {      /*for navigation use */
+    color: rgb(121, 26, 58);
+    background-color: gray;
+
+}
+div > input { /*Using child combinator */
+    background-color: darksalmon;
+}
+/*Using attribute selector*/
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: blue;
+}
+
+input[type] {
+     background-color: aqua;
+}
+
