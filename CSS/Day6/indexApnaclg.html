@@ -16,6 +16,7 @@
         <div>
             <input type="text" placeholder="username">
             <input type="password" placeholder="password">
+            
         </div>
         <nav>
             <ul>
@@ -23,12 +24,13 @@
                 <li><a href="/following">Following</a></li>
                 <li><a href="/answer">Answer</a></li>
                 <li><a href="/spaces">Spaces</a></li>
-            </ul>
+            </ul> 
         </nav>
         <hr>
     </header>
     <main>
-        <p>
+        <div> 
+        <p class="post">
         Adam &nbsp;&nbsp;
         <a class="follow" href="/adam">Follow /abc</a></span>
         </p>
@@ -38,10 +40,12 @@
             <button>answer</button>
         </span>
         <hr />
-
-        <p>
+        </div>
+             
+        <div> 
+        <p class="post">
         Bob &nbsp;&nbsp;
-        <a class="follow" href="/bob">Follow xyz</a>
+        <a class="follow" href="/bob">Follow /bob</a>
         </p>
         <h3>What is the syllabus for JEE 2024?</h3>
         <span>
@@ -49,8 +53,10 @@
             <button>answer</button>
         </span>
         <hr />
+        </div>
 
-        <p>
+        <div> 
+        <p class="post">
         Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
         <a class="follow" href="/catlyn">Follow pqr</a>
         </p>
@@ -60,8 +66,10 @@
             <button>answer</button>
         </span>
         <hr />
+        </div>
 
-        <p>
+        <div>
+        <p class="post">
             Dan &nbsp;&nbsp;&nbsp;&nbsp;
             <a class="follow" href="/dan">Follow pqr</a>
             </p>
@@ -71,12 +79,19 @@
                 <button>answer</button>
             </span>
             <hr />
+             </div>
     </main>
     <div id="myid">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing 
         elit. Sequi vitae expedita nostrum, fugit atque 
         ducimus iure voluptatibus veniam officia
-         delectus maxime ipsam accusantium </p>
+         delectus maxime ipsam accusantium </p> 
     </div> 
+    <div>
+        <input type="radio" name="agree" id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="agree" id="no">
+        <label for="no">No</label>
+    </div>
   </body>
 </html>

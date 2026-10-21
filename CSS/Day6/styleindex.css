@@ -6,11 +6,11 @@ h1, h3{
 }
 #login
 {
-    color:  #b92b27;
-    background-color:gray;
+    background-color:white;
 }
 #signup {
-    color: #b92b27;
+    color: white;
+    background-color: rgb(182, 33, 33);
 }
 .upvote {
      color: black;
@@ -46,4 +46,40 @@ input[type="password"] {
 input[type] {
      background-color: aqua;
 }
-
+/*Using Pesudo code*/
+button:hover {
+    color: white;
+    background-color: black;
+}
+/*Using hover*/
+h3:hover {
+    text-decoration: overline;
+}
+/*Using Active*/
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active {
+    font-weight: bolder;
+    color: greenyellow;
+}
+/*Using Checked*/
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bolder;
+}
+/*Using nth-of-type*/
+div:nth-of-type(1n) {
+    background-color: goldenrod;
+}
+/*Using cascading property,the last property applied on all*/
+h3 {
+    background-color: red;
+}
+h3 {
+    background-color: blue;
+}
+h3 {
+    background-color: green;
+}
