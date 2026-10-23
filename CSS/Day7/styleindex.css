@@ -1,0 +1,24 @@
+ /*Using height & weidth property*/
+div {
+    height: 150px;
+    width: 400px; /*for crating poems style using this properties*/
+    color: black;
+    background-color: green;
+    /*Using border width,style,color property*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: pink; 
+    border-left-color: blue ;
+    border-left-style: dotted;
+    border-top: 5px dashed red;
+}
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: blue;
+}
+/*
+div {
+    border: 10px dotted pink; This is for shorthand property
+}*/
+
