@@ -1,16 +1,25 @@
  /*Using height & weidth property*/
 div {
-    height: 150px;
-    width: 400px; /*for crating poems style using this properties*/
+    /*margin: auto; This is auto center */
+    height: 200px;
+    width: 500px; /*for crating poems style using this properties*/
     color: black;
     background-color: green;
     /*Using border width,style,color property*/
     border-width: 5px;
     border-style: solid;
-    border-color: pink; 
+    border-color: black; 
+    /*
     border-left-color: blue ;
     border-left-style: dotted;
-    border-top: 5px dashed red;
+    border-top: 5px dashed yellow;
+    */
+    /*Using border Radius property*/
+    border-radius: 15px;
+    /*border-top-right-radius: 50px; This property for adjusment tio ,right,left etc*/
+    /*Using padding property*/
+    padding-top: 10px;
+
 }
 h1 {
     border-width: 2px;
@@ -21,4 +30,15 @@ h1 {
 div {
     border: 10px dotted pink; This is for shorthand property
 }*/
+button{
+    border: 2px solid;
+    border-radius: 10px;
+    /*padding-left: 25px;
+    padding-right: 25px;*/
+    padding: 10px 20px 30px 40px; /*Anticlock wise padding*/
+    background-color: aquamarine;
+    color: black;
+    
+
+}
 
