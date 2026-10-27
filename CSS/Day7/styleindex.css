@@ -19,6 +19,11 @@ div {
     /*border-top-right-radius: 50px; This property for adjusment tio ,right,left etc*/
     /*Using padding property*/
     padding-top: 10px;
+    /*Using margin property*/
+    margin-bottom: 25px;
+    margin-left: 25px;
+    /*margin: 10x 20px 30px; For top left & right bottom*/
+    /*margin: 10px 220px 30px 40px; Anti clockwise margim*/
 
 }
 h1 {
@@ -35,7 +40,7 @@ button{
     border-radius: 10px;
     /*padding-left: 25px;
     padding-right: 25px;*/
-    padding: 10px 20px 30px 40px; /*Anticlock wise padding*/
+    /*padding: 10px 20px 30px 40px; Anticlock wise padding*/
     background-color: aquamarine;
     color: black;
     
