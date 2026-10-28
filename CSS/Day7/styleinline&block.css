@@ -1,0 +1,21 @@
+/*Using Inline Property*/
+h2 {
+    display: inline;
+    background-color: green;
+}
+/*Using Block Property*/
+Span {
+    display: block;
+    background-color:greenyellow ;
+}
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+#nd {
+    display: none;
+}
