@@ -1,6 +1,6 @@
 /*Using Percenatge property*/
 h1 {
-    border/: 2px solid black;
+    border: 2px solid black;
     width: 50%;
 }
 #parent {
