@@ -1,15 +1,14 @@
 section {
     margin-top: 100px;
 }
-div {
+ div {
     width: 200px;
     height: 50px;
     text-align: center;
     background-color: #7aa874;
-    border: 2px solid black;
     margin: 10px auto;
+    box-shadow: 2px 2px 8px yellow; /*Using box shaddow property*/
 }
-
 div:nth-of-type(2n) {
     background-color: #f7db6a;
 }
@@ -33,3 +32,12 @@ div:nth-of-type(3n) {
 #three {
     transform:translatex(-100px) 
 }
+
+#four {
+    transform:skew(30deg) 
+}
+
+#five {
+    transform: rotate(30deg) translateX(150px) ;
+    
+
